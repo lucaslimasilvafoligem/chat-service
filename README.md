@@ -64,7 +64,7 @@ Com mais refinamento, este bot pode evoluir para um microserviço independente, 
 ## **Observações e Possíveis Modificações**
 
 - As sessões do WhatsApp são salvas automaticamente para facilitar o uso. Caso isso não seja desejado, é possível desativar esse comportamento no código.
-- O bot está configurado para uma versão específica do Google Chrome e pode precisar de ajustes caso sua configuração local seja diferente.
+- O bot, na parte "agente", está configurado para uma versão específica do Google Chrome e pode precisar de ajustes caso sua configuração local seja diferente.
 - WhatsApp pode modificar frequentemente a estrutura de CSS/HTML, dificultando o uso de bots. Caso isso aconteça, inspecione a página e atualize os seletores no código do bot.
 - A mensagem automática é carregada a partir do arquivo `mensagem.txt`, mas pode ser integrada a uma API para maior flexibilidade.
 
