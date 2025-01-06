@@ -1,0 +1,17 @@
+--> Tecnologias/Ferramentas: Requests, Times, Selenium e OS
+# Para usar essas bibliotecas devemos usar imports
+
+* É útil usar o 'pip install -r <arquivo.txt>' | deve ser um arquivo txt com um nome por linha de cada biblioteca
+
+* Para importar devemos usar o pip install caso a biblioteca já não esteja incluida por padrão 
+	
+--> Variáveis: serão úteis na mudança de ou simplificação de código
+# usos úteis
+	bolinha = driver.find_element(By.CLASS_NAME, 'aummslqt')
+	bolinha = driver.find_elements(By.CLASS_NAME, 'aummslqt')
+	clica_bolinha = bolinha[-1]
+	acao_bolinha = webdriver.common.action_chains.ActionChains(driver)
+	
+--> Selenium
+* A grosso modo Selenium é um navegador que pode ser manipulad
+	
